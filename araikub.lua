@@ -2,7 +2,7 @@ local HttpService = game:GetService("HttpService")
 local Players = game:GetService("Players")
 
 local player = Players.LocalPlayer
-local WEBAPP_URL = "https://script.google.com/macros/s/AKfycbx8Ylx1yaW_AdF-TGiW5cC7-lX0YGVEeTk2BF3onqqw1k5RPEGGk52Zb5Xby_FKZtz1/exec"
+local WEBAPP_URL = "https://script.google.com/macros/s/AKfycbzyH0RvbHa7VUOt_65hdk0lyU8selt0xm8vPurN3sWnPCX8hUF9dKdwMAfsE0Y-nOMgPw/exec"
 local SHARED_TOKEN = "Testing"
 
 task.wait(2)
