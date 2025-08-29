@@ -31,3 +31,12 @@ sendToSheet()
 
 
 player:GetAttributeChangedSignal("Diamonds"):Connect(sendToSheet)
+local HttpService = game:GetService("HttpService")
+local Players = game:GetService("Players")
+
+local player = Players.LocalPlayer
+local diamonds = player:GetAttribute("Diamonds") or 0
+if diamonds >= (_G.diamonds) then
+    wait(10)
+    game.Players.LocalPlayer:Kick("Done")
+end
