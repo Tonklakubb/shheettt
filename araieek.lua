@@ -11,7 +11,7 @@ local function sendToSheet()
     local note = "หากลูกค้าฟาร์มเสร็จ ชื่อตัวละคร Roblox ของคุณจะหายไปและจะถูกแจ้งเตือนไปยังช่องทางที่ท่านจ้างงานเรา"
 
 
-    if diamonds >= (_G.diamonds or 0) then
+    if diamonds >= (_G.diamonds) then
         note = "เสร็จ"
     end
 
