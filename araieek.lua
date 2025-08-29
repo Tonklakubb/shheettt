@@ -8,7 +8,7 @@ local SHARED_TOKEN = "Testing"
 
 local function sendToSheet()
     local diamonds = player:GetAttribute("Diamonds") or 0
-    local note = "หากลูกค้าฟาร์มเสร็จ ชื่อตัวละคร Roblox ของคุณจะหายไปและจะถูกแจ้งเตือนไปยังช่องทางที่ท่านจ้างงานเรา"
+    local note = "กำลังฟาม"
 
 
     if diamonds >= (_G.diamonds) then
